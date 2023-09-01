@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.article_main{
+    display: flex;
+}
+
+.article_main div{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    background-color: white;
+    
+}
