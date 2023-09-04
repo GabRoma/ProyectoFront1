@@ -215,7 +215,6 @@ text-align: right;
     font-weight: 700;
     text-align: center;
     width: 29.45vw;
-    top: 10vh;
     position: relative;
     height: 6.78vh;
     justify-content: center;
@@ -265,17 +264,15 @@ text-align: right;
 
 
 }
-.rectangulos{
-    display: flex;
 
-}
 .rectangulo{
     display: flex;
     z-index: -1;
     position: relative;
     width: 30.91vw;
-    height: 25vh;
-    top: 29.90vh;
+    height: 24vh;
+    top: 2.00vh;
+    right: 30.91vw;
     background-color: rgb(249, 249, 249);
    
 
