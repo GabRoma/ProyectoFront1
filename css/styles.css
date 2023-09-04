@@ -32,18 +32,21 @@ body{
 }
 
 ul{
+    color: #1E1E26;
     list-style: none;
     display: flex;
     flex-direction: row;
     width: auto;
     font-weight: 500;
     line-height: 10px;
-    line-height: normal;
     column-gap: 3.11vw;
 }
 
 .b_contact{
-
+    font-family:'Be Vietnam Pro';
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
     color: white;
     background-color: #8B48BF;
     width: 9.31vw;
@@ -54,6 +57,11 @@ ul{
     box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
     border: none;
 
+}
+
+li:hover{
+    
+    color: #242E5299;
 }
 
 /* inicio del main */
@@ -103,7 +111,7 @@ text-align: right;
 }
 /* inicio Section 2 */
 
-.points{
+.points-header{
     display: flex;
     height: 18.67vh;
     font-size: 1em;
@@ -133,3 +141,154 @@ text-align: right;
 
 }
 
+.points{
+    display: flex;
+    padding: 4.45vh 0px 4.45vh 0px;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6vw 2.56vh;
+    background-color: rgb(249, 249, 249);
+
+
+
+}
+
+.num-button{
+    color: white;
+    display: flex;
+    font-weight: 700;
+    background-color: #8B48BF;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 25px 10px 25px;
+    border-radius: 30px;
+    gap: 10px;
+
+}
+
+
+
+.points-pro{
+    
+    display: flex;
+    gap:2.55vh;
+    width: 36.81vw;
+    height: 17.56vh;
+
+}
+
+.point-resume{
+    display: flex;
+    gap: 1.25vw 2vh; 
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.point-title{
+    font-weight: 700;
+    width: fit-content;
+    height: fit-content;
+}
+
+.point-p{
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+/* inicio seccion 3 */
+
+.best-otm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.best-otm-title{
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    width: 29.45vw;
+    top: 10vh;
+    position: relative;
+    height: 6.78vh;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.group-cards{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.player-card{
+    background-color: #1e1e2600;
+    z-index: 111;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30.91vw;
+    height: 28.90vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.45vw 2.34vh;
+
+    
+}
+
+.player-card img{
+    width: 4.9vw;
+    height: 7.8vh;
+}
+
+.p-name{
+    color:#3F4868;
+    font-weight: 700;
+}
+
+.p-description{
+    width: 27.99vw;
+    color: rgba(185, 185, 193, 1);
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+.rectangulos{
+    display: flex;
+
+}
+.rectangulo{
+    display: flex;
+    z-index: -1;
+    position: relative;
+    width: 30.91vw;
+    height: 25vh;
+    top: 29.90vh;
+    background-color: rgb(249, 249, 249);
+   
+
+
+}
+
+.b-more{
+    display: flex;
+    width: 134px;
+    height:44px;
+    padding: 10px;
+    border-radius: 50px;
+    gap: 10px;
+    
+
+}
