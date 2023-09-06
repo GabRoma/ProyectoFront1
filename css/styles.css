@@ -31,6 +31,12 @@ body{
     height: 2.78vh;   
 }
 
+.logo_sportitFooter{
+    width: 7.48vw;
+    height: 2.78vh;
+    margin-bottom: 6vh;   
+}
+
 ul{
     color: #1E1E26;
     list-style: none;
@@ -289,7 +295,7 @@ text-align: right;
     height: 22vh;
     color: white;
     background-color: #8B48BF;
-    gap: 11.12vw;
+    gap: 30vw;
     padding: 4.45vh 0px 4.45vh 0px;
     justify-content: space-evenly;
     align-items: center;
@@ -313,6 +319,69 @@ text-align: right;
 }
 
 footer{
-background-color: black;
-color: white;
+    display: flex;
+    background-color: black;
+    height: 25vh;
+    font-family:'Be Vietnam Pro';
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logoyrrss{
+    display:flex;
+    flex-direction: column;
+}
+
+.rrss{
+    display:flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    margin-left: 1vw;
+}
+
+.footer_nav{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-weight: lighter;
+    margin-top: 3vh;
+}
+
+.footer_nav li{
+    margin-bottom: 3vh;
+}
+
+.inbox_request{
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+}
+
+.emailfield{
+    background-color: white;
+    width: 10vw;
+    height: 4.9vh;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.emailbutton{
+    color: white;
+    background-color: #8B48BF;
+    width: 4vw;
+    height: 4.9vh;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-left: 0.6vh;
+}
+
+.copyright{
+    margin-top: 2vh;
+    color:dimgray;
+    font-size: x-small;
+    align-self:last baseline;
 }
