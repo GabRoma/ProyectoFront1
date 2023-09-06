@@ -23,9 +23,16 @@ body{
     padding: 7.22vh 11.46vw 7.22vh 11.46vw;
 }
 
-.logo_sportitHeader{
-    width: 108px;
-    height: 25px;   
+.logo_sportitFooter{
+    width: 7.48vw;
+    height: 2.78vh;
+    margin-bottom: 6vh;   
+}
+
+.logo_sportitFooter{
+    width: 7.48vw;
+    height: 2.78vh;
+    margin-bottom: 6vh;   
 }
 
 ul{
@@ -55,7 +62,6 @@ ul{
     gap: 10px;
     box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
     border: none;
-
 }
 
 li:hover{
@@ -73,13 +79,6 @@ li:hover{
     display: flex;
     width: 75.70%;
     left: 12.50%;
-
-}
-
-
-.jugador_padel{
-
-
 
 }
 
@@ -356,4 +355,201 @@ footer{
 .redes{
     position: absolute;
     top: 282.77vh;
+}
+
+.best{
+    display: flex;
+    font-weight: 700;
+    font-size: 2.25em;
+    height: 22vh;
+    color: white;
+    background-color: #8B48BF;
+    gap: 30vw;
+    padding: 4.45vh 0px 4.45vh 0px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.gfi_button{
+        font-family:'Be Vietnam Pro';
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        color: #8B48BF;
+        background-color: white;
+        width: 9.31vw;
+        height: 4.9vh;
+        padding: 10px;
+        border-radius: 50px;
+        gap: 10px;
+        box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+        border: none;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    height: 25vh;
+    font-family:'Be Vietnam Pro';
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logoyrrss{
+    display:flex;
+    flex-direction: column;
+}
+
+.rrss{
+    display:flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    margin-left: 1vw;
+}
+
+.footer_nav{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-weight: lighter;
+    margin-top: 3vh;
+}
+
+.footer_nav li{
+    margin-bottom: 3vh;
+}
+
+.inbox_request{
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+}
+
+.emailfield{
+    background-color: white;
+    width: 10vw;
+    height: 4.9vh;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.emailbutton{
+    color: white;
+    background-color: #8B48BF;
+    width: 4vw;
+    height: 4.9vh;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-left: 0.6vh;
+}
+
+.copyright{
+    margin-top: 2vh;
+    color:dimgray;
+    font-size: x-small;
+    align-self:last baseline;
+}
+
+
+.best{
+    display: flex;
+    font-weight: 700;
+    font-size: 2.25em;
+    height: 22vh;
+    color: white;
+    background-color: #8B48BF;
+    gap: 30vw;
+    padding: 4.45vh 0px 4.45vh 0px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.gfi_button{
+        font-family:'Be Vietnam Pro';
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        color: #8B48BF;
+        background-color: white;
+        width: 9.31vw;
+        height: 4.9vh;
+        padding: 10px;
+        border-radius: 50px;
+        gap: 10px;
+        box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+        border: none;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    height: 25vh;
+    font-family:'Be Vietnam Pro';
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logoyrrss{
+    display:flex;
+    flex-direction: column;
+}
+
+.rrss{
+    display:flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    margin-left: 1vw;
+}
+
+.footer_nav{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-weight: lighter;
+    margin-top: 3vh;
+}
+
+.footer_nav li{
+    margin-bottom: 3vh;
+}
+
+.inbox_request{
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+}
+
+.emailfield{
+    background-color: white;
+    width: 10vw;
+    height: 4.9vh;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.emailbutton{
+    color: white;
+    background-color: #8B48BF;
+    width: 4vw;
+    height: 4.9vh;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-left: 0.6vh;
+}
+
+.copyright{
+    margin-top: 2vh;
+    color:dimgray;
+    font-size: x-small;
+    align-self:last baseline;
 }
