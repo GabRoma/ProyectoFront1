@@ -298,3 +298,62 @@ text-align: right;
     gap: 10px;
 }
 
+/* inicio section 4 */
+
+.pre-footer{
+    position: absolute;
+    top: 220vh;
+    display: flex;
+    width: 100vw;
+    font-weight: 700;
+    font-size: 2.25em;
+    height: 24.89vh;
+    color: white;
+    background-color: #8B48BF;
+    gap: 11.12vw;
+    padding: 4.45vh 0px 4.45vh 0px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.gfi-button{
+        font-family:'Be Vietnam Pro';
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        color: #8B48BF;
+        background-color: white;
+        width: 9.31vw;
+        height: 4.9vh;
+        padding: 10px;
+        border-radius: 50px;
+        gap: 10px;
+        box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+        border: none;
+}
+
+footer{
+    display: flex;
+    height: 27.45vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+
+.logo-sportitFooter{
+    position: absolute;
+    top: 271.78vh;
+}
+
+
+.nav-barfooter{
+    top: 271.67vh;
+    color: aliceblue;
+    display: flex;
+}
+
+.redes{
+    position: absolute;
+    top: 282.77vh;
+}
