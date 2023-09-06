@@ -20,37 +20,36 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    width: 100vw;
-    height: 19.33vh;
     padding: 7.22vh 11.46vw 7.22vh 11.46vw;
-    row-gap: 15.56vw;
 }
 
 .logo_sportitHeader{
-    width: 7.48vw;
-    height: 2.78vh;   
+    width: 108px;
+    height: 25px;   
 }
 
 ul{
     color: #1E1E26;
     list-style: none;
     display: flex;
+    width: fit-content;
     flex-direction: row;
-    width: auto;
     font-weight: 500;
     line-height: 10px;
     column-gap: 3.11vw;
+
 }
 
 .b_contact{
     font-family:'Be Vietnam Pro';
     font-weight: 500;
     line-height: 19px;
+    font-size: 0.82em;
     letter-spacing: 0em;
     color: white;
     background-color: #8B48BF;
-    width: 9.31vw;
-    height: 4.9vh;
+    width: 134px;
+    height: 44px;
     padding: 10px;
     border-radius: 50px;
     gap: 10px;
@@ -69,7 +68,8 @@ li:hover{
 /* inicio de seccion 1 */
 
 .article_main{
-    position: relative;
+    position: absolute;
+    top: 28.90vh;
     display: flex;
     width: 75.70%;
     left: 12.50%;
@@ -112,6 +112,9 @@ text-align: right;
 /* inicio Section 2 */
 
 .points-header{
+    position: absolute;
+    top: 90.78vh;
+    width: 100vw;
     display: flex;
     height: 18.67vh;
     font-size: 1em;
@@ -142,6 +145,8 @@ text-align: right;
 }
 
 .points{
+    position: absolute;
+    top: 109.45vh;
     display: flex;
     padding: 4.45vh 0px 4.45vh 0px;
     align-content: space-between;
@@ -210,18 +215,21 @@ text-align: right;
 }
 
 .best-otm-title{
+    position: absolute;
+    top: 167.78vh;
     display: flex;
     font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
     width: 29.45vw;
-    position: relative;
     height: 6.78vh;
     justify-content: center;
     align-items: flex-end;
 }
 
 .group-cards{
+    position: absolute;
+    top: 182.78vh;
     width: 100vw;
     display: flex;
     flex-direction: row;
@@ -280,12 +288,13 @@ text-align: right;
 }
 
 .b-more{
+    position: absolute;
+    top: 216vh;
     display: flex;
     width: 134px;
     height:44px;
     padding: 10px;
     border-radius: 50px;
     gap: 10px;
-    
-
 }
+
