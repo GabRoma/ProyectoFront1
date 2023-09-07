@@ -13,8 +13,15 @@ body{
 
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 5.56vh;
+
+}
+
 /* inicio del header */
-.nav_header{
+.nav-header{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -23,31 +30,32 @@ body{
     padding: 7.22vh 11.46vw 7.22vh 11.46vw;
 }
 
-.logo_sportitFooter{
+.logo-sportitFooter{
     width: 7.48vw;
     height: 2.78vh;
     margin-bottom: 6vh;   
 }
 
-.logo_sportitFooter{
+.logo-sportitFooter{
     width: 7.48vw;
     height: 2.78vh;
     margin-bottom: 6vh;   
 }
 
-ul{
+.nav-header ul{
     color: #1E1E26;
     list-style: none;
     display: flex;
     width: fit-content;
     flex-direction: row;
     font-weight: 500;
-    line-height: 10px;
-    column-gap: 3.11vw;
+    font-size: 0.82em;
+    line-height: 1.45em;
+    gap: 3.11vw;
 
 }
 
-.b_contact{
+.b-contact{
     font-family:'Be Vietnam Pro';
     font-weight: 500;
     line-height: 19px;
@@ -73,14 +81,16 @@ li:hover{
 
 /* inicio de seccion 1 */
 
-.article_main{
-    position: absolute;
-    top: 28.90vh;
+.article-main{
+    height: fit-content;
     display: flex;
-    width: 75.70%;
     left: 12.50%;
-
+    gap: 6.95vh;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 .noticia{
     display: flex;
@@ -91,8 +101,11 @@ li:hover{
 }
 
 .titulo-noticia{
+    color: #232C50;
     justify-content: flex-end;
     font-size: 3.125rem;
+    width: 31.25vw;
+    height: fit-content;
     font-weight: 700;
     line-height: 3.57rem;
     letter-spacing: -0.035em;
@@ -100,27 +113,27 @@ li:hover{
 }
 
 .subtitulo-noticia{
-font-size: 1rem;
-font-weight: 500;
-line-height: 1.625rem;
-letter-spacing: 0em;
-text-align: right;
+    width: 31.25vw;
+    height: fit-content;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+    letter-spacing: 0em;
+    text-align: right;
 
 
 }
 /* inicio Section 2 */
 
 .points-header{
-    position: absolute;
-    top: 90.78vh;
     width: 100vw;
+    height: fit-content;
     display: flex;
-    height: 18.67vh;
     font-size: 1em;
     color: white;
     background-color: #8B48BF;
     font-weight: 500;
-    gap: 11.12vw;
+    gap: 11.12vh;
     padding: 4.45vh 0px 4.45vh 0px;
     justify-content: center;
 
@@ -130,22 +143,22 @@ text-align: right;
     display: flex;
     color: white;
     width: 31.25vw;
-    height: 9.78vh;
+    height: fit-content;
     font-weight: 700;
     font-size: 2.25em;
+    line-height: 2.6rem;
 }
 
 .points-b{
     display: flex;
-    width: 31.25vw;
-    height: 9.78vh;
+    height: fit-content;
     line-height: 1.5rem;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
 
 .points{
-    position: absolute;
-    top: 109.45vh;
     display: flex;
     padding: 4.45vh 0px 4.45vh 0px;
     align-content: space-between;
@@ -179,13 +192,13 @@ text-align: right;
     display: flex;
     gap:2.55vh;
     width: 36.81vw;
-    height: 17.56vh;
+    height: fit-content;
 
 }
 
 .point-resume{
     display: flex;
-    gap: 1.25vw 2vh; 
+    gap: 1.25vw; 
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
@@ -193,14 +206,17 @@ text-align: right;
 }
 
 .point-title{
+    color: #323851;
     font-weight: 700;
+    line-height: 1.47em;
     width: fit-content;
     height: fit-content;
 }
 
 .point-p{
+    color: #B3B2B7;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 1.6em;
     letter-spacing: -0.01em;
     text-align: left;
 }
@@ -214,21 +230,16 @@ text-align: right;
 }
 
 .best-otm-title{
-    position: absolute;
-    top: 167.78vh;
     display: flex;
     font-size: 2.5rem;
+    line-height: 3.84em;
     font-weight: 700;
     text-align: center;
-    width: 29.45vw;
-    height: 6.78vh;
     justify-content: center;
     align-items: flex-end;
 }
 
 .group-cards{
-    position: absolute;
-    top: 182.78vh;
     width: 100vw;
     display: flex;
     flex-direction: row;
@@ -272,48 +283,38 @@ text-align: right;
 
 }
 
-.rectangulo{
-    display: flex;
-    z-index: -1;
-    position: relative;
-    width: 30.91vw;
-    height: 24vh;
-    top: 2.00vh;
-    right: 30.91vw;
-    background-color: rgb(249, 249, 249);
-   
 
-
-}
 
 .b-more{
-    position: absolute;
-    top: 216vh;
     display: flex;
+    flex: wrap;
     width: 134px;
     height:44px;
     padding: 10px;
     border-radius: 50px;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #8B48BF;
+    border: none;
+
 }
 
 /* inicio section 4 */
 
-.pre-footer{
-    position: absolute;
-    top: 220vh;
+.best{
     display: flex;
-    width: 100vw;
     font-weight: 700;
     font-size: 2.25em;
+    width: 100vw;
     height: 24.89vh;
     color: white;
     background-color: #8B48BF;
-    gap: 11.12vw;
+    gap: 30vw;
     padding: 4.45vh 0px 4.45vh 0px;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 15vh;
 }
 
 .gfi-button{
@@ -323,8 +324,8 @@ text-align: right;
         letter-spacing: 0em;
         color: #8B48BF;
         background-color: white;
-        width: 9.31vw;
-        height: 4.9vh;
+        width: 134px;
+        height: 44px;
         padding: 10px;
         border-radius: 50px;
         gap: 10px;
@@ -333,64 +334,11 @@ text-align: right;
 }
 
 footer{
+
     display: flex;
-    height: 27.45vh;
+    background-color: black;
     width: 100vw;
-    background-color: black;
-    color: white;
-}
-
-.logo-sportitFooter{
-    position: absolute;
-    top: 271.78vh;
-}
-
-
-.nav-barfooter{
-    top: 271.67vh;
-    color: aliceblue;
-    display: flex;
-}
-
-.redes{
-    position: absolute;
-    top: 282.77vh;
-}
-
-.best{
-    display: flex;
-    font-weight: 700;
-    font-size: 2.25em;
-    height: 22vh;
-    color: white;
-    background-color: #8B48BF;
-    gap: 30vw;
-    padding: 4.45vh 0px 4.45vh 0px;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 15vh;
-}
-
-.gfi_button{
-        font-family:'Be Vietnam Pro';
-        font-weight: 500;
-        line-height: 19px;
-        letter-spacing: 0em;
-        color: #8B48BF;
-        background-color: white;
-        width: 9.31vw;
-        height: 4.9vh;
-        padding: 10px;
-        border-radius: 50px;
-        gap: 10px;
-        box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
-        border: none;
-}
-
-footer{
-    display: flex;
-    background-color: black;
-    height: 25vh;
+    height: 27.45vh;
     font-family:'Be Vietnam Pro';
     color: white;
     justify-content: space-evenly;
@@ -409,19 +357,18 @@ footer{
     margin-left: 1vw;
 }
 
-.footer_nav{
+.footer-nav{
     display: flex;
     flex-direction: column;
     color:white;
     font-weight: lighter;
     margin-top: 3vh;
+    gap: 1.34vh;
+    list-style: none;
 }
 
-.footer_nav li{
-    margin-bottom: 3vh;
-}
 
-.inbox_request{
+.inbox-request{
     display: flex;
     flex-direction: column;
     gap: 6vh;
@@ -429,8 +376,8 @@ footer{
 
 .emailfield{
     background-color: white;
-    width: 10vw;
-    height: 4.9vh;
+    width: 201px;
+    height: 44px;
     padding: 10px;
     border-radius: 50px;
     box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
@@ -440,107 +387,8 @@ footer{
 .emailbutton{
     color: white;
     background-color: #8B48BF;
-    width: 4vw;
-    height: 4.9vh;
-    border-radius: 50px;
-    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
-    border: none;
-    margin-left: 0.6vh;
-}
-
-.copyright{
-    margin-top: 2vh;
-    color:dimgray;
-    font-size: x-small;
-    align-self:last baseline;
-}
-
-
-.best{
-    display: flex;
-    font-weight: 700;
-    font-size: 2.25em;
-    height: 22vh;
-    color: white;
-    background-color: #8B48BF;
-    gap: 30vw;
-    padding: 4.45vh 0px 4.45vh 0px;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 15vh;
-}
-
-.gfi_button{
-        font-family:'Be Vietnam Pro';
-        font-weight: 500;
-        line-height: 19px;
-        letter-spacing: 0em;
-        color: #8B48BF;
-        background-color: white;
-        width: 9.31vw;
-        height: 4.9vh;
-        padding: 10px;
-        border-radius: 50px;
-        gap: 10px;
-        box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
-        border: none;
-}
-
-footer{
-    display: flex;
-    background-color: black;
-    height: 25vh;
-    font-family:'Be Vietnam Pro';
-    color: white;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.logoyrrss{
-    display:flex;
-    flex-direction: column;
-}
-
-.rrss{
-    display:flex;
-    flex-direction: row;
-    gap: 0.5vw;
-    margin-left: 1vw;
-}
-
-.footer_nav{
-    display: flex;
-    flex-direction: column;
-    color:white;
-    font-weight: lighter;
-    margin-top: 3vh;
-}
-
-.footer_nav li{
-    margin-bottom: 3vh;
-}
-
-.inbox_request{
-    display: flex;
-    flex-direction: column;
-    gap: 6vh;
-}
-
-.emailfield{
-    background-color: white;
-    width: 10vw;
-    height: 4.9vh;
-    padding: 10px;
-    border-radius: 50px;
-    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
-    border: none;
-}
-
-.emailbutton{
-    color: white;
-    background-color: #8B48BF;
-    width: 4vw;
-    height: 4.9vh;
+    width: 63px;
+    height: 42px;
     border-radius: 50px;
     box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
     border: none;
