@@ -14,7 +14,8 @@ body{
 }
 
 /* inicio del header */
-.nav_header{
+
+.nav-header{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -23,12 +24,12 @@ body{
     padding: 7.22vh 11.46vw 7.22vh 11.46vw;
 }
 
-.logo_sportitHeader{
-    width: 108px;
-    height: 25px;   
+.logo-sportitHeader{
+    width: 107.69px;
+    height: 25px;
 }
 
-ul{
+.nav-header ul{
     color: #1E1E26;
     list-style: none;
     display: flex;
@@ -37,25 +38,22 @@ ul{
     font-weight: 500;
     line-height: 10px;
     column-gap: 3.11vw;
-
 }
 
-.b_contact{
+.b-contact{
     font-family:'Be Vietnam Pro';
     font-weight: 500;
     line-height: 19px;
-    font-size: 0.82em;
     letter-spacing: 0em;
     color: white;
     background-color: #8B48BF;
-    width: 134px;
-    height: 44px;
+    width: 9.31vw;
+    height: 4.9vh;
     padding: 10px;
     border-radius: 50px;
     gap: 10px;
     box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
     border: none;
-
 }
 
 li:hover{
@@ -65,16 +63,28 @@ li:hover{
 
 /* inicio del main */
 
-/* inicio de seccion 1 */
-
-.article_main{
-    position: absolute;
-    top: 28.90vh;
+main{
     display: flex;
-    width: 75.70%;
-    left: 12.50%;
+    flex-direction: column;
+    gap: 5.56vh;
 
 }
+
+/* inicio de seccion 1 */
+
+.article-main{
+    height: fit-content;
+    display: flex;
+    gap: 6.95vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.jugador-padel{
+    width: 50vw;
+}
+
+
 
 .noticia{
     display: flex;
@@ -85,8 +95,11 @@ li:hover{
 }
 
 .titulo-noticia{
+    color: #232C50;
     justify-content: flex-end;
     font-size: 3.125rem;
+    width: 31.25vw;
+    height: fit-content;
     font-weight: 700;
     line-height: 3.57rem;
     letter-spacing: -0.035em;
@@ -94,47 +107,50 @@ li:hover{
 }
 
 .subtitulo-noticia{
-font-size: 1rem;
-font-weight: 500;
-line-height: 1.625rem;
-letter-spacing: 0em;
-text-align: right;
-
-
+    width: 31.25vw;
+    height: fit-content;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+    letter-spacing: 0em;
+    text-align: right;
 }
+
 /* inicio Section 2 */
 
 .points-header{
-    position: absolute;
-    top: 90.78vh;
     width: 100vw;
+    height: fit-content;
     display: flex;
-    height: 18.67vh;
     font-size: 1em;
     color: white;
     background-color: #8B48BF;
-    font-weight: 500;
-    gap: 11.12vw;
+    gap: 11.12vh;
     padding: 4.45vh 0px 4.45vh 0px;
     justify-content: center;
-
 }
 
 .points-a{
     display: flex;
-    color: white;
     width: 31.25vw;
-    height: 9.78vh;
+    height: fit-content;
     font-weight: 700;
     font-size: 2.25em;
+    line-height: 2.6rem;
+    text-align: left;
 }
 
 .points-b{
-    display: flex;
     width: 31.25vw;
-    height: 9.78vh;
+    display: flex;
+    height: fit-content;
     line-height: 1.5rem;
+    letter-spacing: 0em;
+    text-align: left;
+}
 
+.points-c{
+    display: none;
 }
 
 .points{
@@ -148,9 +164,6 @@ text-align: right;
     align-items: center;
     gap: 1.6vw 2.56vh;
     background-color: rgb(249, 249, 249);
-
-
-
 }
 
 .num-button{
@@ -169,32 +182,32 @@ text-align: right;
 
 
 .points-pro{
-    
     display: flex;
     gap:2.55vh;
     width: 36.81vw;
-    height: 17.56vh;
-
+    height: fit-content;
 }
 
 .point-resume{
     display: flex;
-    gap: 1.25vw 2vh; 
+    gap: 1.25vw; 
     flex-wrap: wrap;
     align-items: center;
-    align-content: center;
-    
+    align-content: center;   
 }
 
 .point-title{
+    color: #323851;
     font-weight: 700;
+    line-height: 1.47em;
     width: fit-content;
     height: fit-content;
 }
 
 .point-p{
+    color: #B3B2B7;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 1.6em;
     letter-spacing: -0.01em;
     text-align: left;
 }
@@ -212,10 +225,9 @@ text-align: right;
     top: 167.78vh;
     display: flex;
     font-size: 2.5rem;
+    line-height: 3.84em;
     font-weight: 700;
     text-align: center;
-    width: 29.45vw;
-    height: 6.78vh;
     justify-content: center;
     align-items: flex-end;
 }
@@ -235,79 +247,62 @@ text-align: right;
     z-index: 111;
     display: flex;
     flex-wrap: wrap;
-    width: 30.91vw;
-    height: 28.90vh;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    gap: 1.45vw 2.34vh;
-
-    
-}
-
-.player-card img{
-    width: 4.9vw;
-    height: 7.8vh;
+    gap: 1.45vw;
+    width: 31vw; 
 }
 
 .p-name{
     color:#3F4868;
     font-weight: 700;
+    line-height: 1.56em;
 }
 
 .p-description{
+    height: fit-content;
     width: 27.99vw;
     color: rgba(185, 185, 193, 1);
     font-weight: 500;
     line-height: 25px;
     letter-spacing: 0em;
     text-align: center;
-
-
-}
-
-.rectangulo{
-    display: flex;
-    z-index: -1;
-    position: relative;
-    width: 30.91vw;
-    height: 24vh;
-    top: 2.00vh;
-    right: 30.91vw;
-    background-color: rgb(249, 249, 249);
-   
-
-
+    gap: 1.46vw;
 }
 
 .b-more{
     position: absolute;
     top: 216vh;
     display: flex;
+    flex: wrap;
     width: 134px;
     height:44px;
     padding: 10px;
     border-radius: 50px;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #8B48BF;
+    border: none;
+
 }
 
 /* inicio section 4 */
 
-.pre-footer{
-    position: absolute;
-    top: 220vh;
+.best{
     display: flex;
-    width: 100vw;
     font-weight: 700;
     font-size: 2.25em;
+    width: 100vw;
     height: 24.89vh;
     color: white;
     background-color: #8B48BF;
-    gap: 11.12vw;
+    gap: 30vw;
     padding: 4.45vh 0px 4.45vh 0px;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 15vh;
 }
 
 .gfi-button{
@@ -317,8 +312,8 @@ text-align: right;
         letter-spacing: 0em;
         color: #8B48BF;
         background-color: white;
-        width: 9.31vw;
-        height: 4.9vh;
+        width: 134px;
+        height: 44px;
         padding: 10px;
         border-radius: 50px;
         gap: 10px;
@@ -326,27 +321,244 @@ text-align: right;
         border: none;
 }
 
-footer{
-    display: flex;
-    height: 27.45vh;
-    width: 100vw;
-    background-color: black;
-    color: white;
-}
+/* inicio footer*/
 
 .logo-sportitFooter{
-    position: absolute;
-    top: 271.78vh;
+    width: 107.69px;
+    height: 25px;
+    margin-bottom: 6vh;   
 }
 
+footer{
 
-.nav-barfooter{
-    top: 271.67vh;
-    color: aliceblue;
     display: flex;
+    background-color: black;
+    width: 100vw;
+    height: 27.45vh;
+    font-family:'Be Vietnam Pro';
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.redes{
-    position: absolute;
-    top: 282.77vh;
+.logoyrrss{
+    display:flex;
+    flex-direction: column;
 }
+
+.rrss{
+    display:flex;
+    flex-direction: row;
+    gap: 0.5vw;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-weight: lighter;
+    margin-top: 3vh;
+    gap: 1.34vh;
+    list-style: none;
+}
+
+
+.inbox-request{
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+}
+
+.emailfield{
+    background-color: white;
+    width: 201px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.emailbutton{
+    color: white;
+    background-color: #8B48BF;
+    width: 63px;
+    height: 42px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-left: 0.6vh;
+}
+
+.copyright{
+    margin-top: 2vh;
+    color:dimgray;
+    font-size: x-small;
+    align-self:last baseline;
+}
+
+/* inicio de media querie */
+
+@media (max-width: 480px) {
+
+    /* mq mobile header*/
+    .nav-header{
+        display: flex;
+        flex-direction: row;
+        
+        gap: 41.67vw;  
+        height: fit-content;    
+        
+    }
+
+    .nav-header ul{
+        display: none;
+    }
+
+    .menu-hamb{
+        display: block;
+    }
+
+    .b-contact{
+        display: none;
+    }
+
+    /* mq mobile main sec-1*/
+
+    .article-main{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        left: 8.34vw;
+        gap: 100px;
+        justify-content: center;
+    }
+
+    .jugador-padel{
+        width: 83.34vw;
+    }
+
+    .noticia{
+        display: flex;
+        flex-direction: column;
+        gap: 5.84vw;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .titulo-noticia{
+        color: #232C50;
+        font-size: 3.125rem;
+        width: 83.34vw;
+        height: fit-content;
+        font-weight: 700;
+        line-height: 3.57rem;
+        letter-spacing: -0.035em;
+        justify-content: center;
+    }
+
+    .subtitulo-noticia{
+        width: 83.34vw;
+        height: fit-content;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.625rem;
+        letter-spacing: 0em;
+    }
+
+    .noticia button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* mq mobile main sec-2*/
+
+    .points-header{
+        width: 480px;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        font-size: 1em;
+        color: white;
+        background-color: #3CDDF3;
+        padding: 40px 20px 40px 20px;
+        gap: 50px;
+    }
+
+    .points-a{
+        display: flex;
+        width: 91.67vw;
+        height: fit-content;
+        font-weight: 700;
+        font-size: 2.25em;
+        line-height: 2.6rem;
+        text-align: left;
+    }
+
+    .points-b{
+        display: none;
+    }
+
+    .points-c{
+    width: 91.67vw;
+    display: flex;
+    height: fit-content;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+
+    .points{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .num-button{
+        color: white;
+        display: flex;
+        font-weight: 700;
+        background-color: #8B48BF;
+        width: fit-content;
+        height: fit-content;
+        padding: 10px 25px 10px 25px;
+        border-radius: 30px;
+        gap: 10px;
+    
+    }
+    
+    .points-pro{
+        display: flex;
+        gap:2.55vh;
+        width: 36.81vw;
+        height: fit-content;
+    }
+    
+    .point-resume{
+        display: flex;
+        gap: 1.25vw; 
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;   
+    }
+    
+    .point-title{
+        color: #323851;
+        font-weight: 700;
+        line-height: 1.47em;
+        width: fit-content;
+        height: fit-content;
+    }
+    
+    .point-p{
+        color: #B3B2B7;
+        font-weight: 500;
+        line-height: 1.6em;
+        letter-spacing: -0.01em;
+        text-align: left;
+    }
+
+
+    /*mq mobile main sec-3*/
+
+
