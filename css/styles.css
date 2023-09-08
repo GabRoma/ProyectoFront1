@@ -47,8 +47,8 @@ body{
     letter-spacing: 0em;
     color: white;
     background-color: #8B48BF;
-    width: 9.31vw;
-    height: 4.9vh;
+    width: 134px;
+    height: 44px;
     padding: 10px;
     border-radius: 50px;
     gap: 10px;
@@ -159,13 +159,20 @@ main{
 
 .points{
     display: flex;
-    padding: 4.45vh 0px 4.45vh 0px;
+    padding: 40px 0px 40px 0px;
     align-content: space-between;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 1.6vw 2.56vh;
+    gap: 24px;
     background-color: rgb(249, 249, 249);
+}
+
+.points-pro{
+    display: flex;
+    gap:2.55vh;
+    width: 36.81vw;
+    height: fit-content;
 }
 
 .num-button{
@@ -178,14 +185,6 @@ main{
     padding: 10px 25px 10px 25px;
     border-radius: 30px;
     gap: 10px;
-
-}
-
-.points-pro{
-    display: flex;
-    gap:2.55vh;
-    width: 36.81vw;
-    height: fit-content;
 }
 
 .point-resume{
@@ -194,6 +193,10 @@ main{
     flex-wrap: wrap;
     align-items: center;
     align-content: center;   
+}
+
+.point-resume .num-button{
+    display: none;
 }
 
 .point-title{
@@ -221,6 +224,7 @@ main{
 }
 
 .best-otm-title{
+    color: #242E53;
     display: flex;
     font-size: 2.5rem;
     line-height: 3.84em;
@@ -398,7 +402,7 @@ footer{
     .nav-header{
         display: flex;
         flex-direction: row;
-        
+        flex-wrap: nowrap;
         gap: 41.67vw;  
         height: fit-content;    
         
@@ -494,38 +498,36 @@ footer{
     }
 
     .points-c{
-    width: 91.67vw;
-    display: flex;
-    height: fit-content;
-    line-height: 1.5rem;
-    letter-spacing: 0em;
-    text-align: left;
+        width: 91.67vw;
+        display: flex;
+        height: fit-content;
+        line-height: 1.5rem;
+        letter-spacing: 0em;
+        text-align: left;
     }
 
     .points{
         display: flex;
+        flex-wrap: nowrap;
         flex-direction: column;
+        align-items: flex-end;
+        gap: 20px;
+        background-color: white;
     }
 
-    .num-button{
-        color: white;
-        display: flex;
-        font-weight: 700;
-        background-color: #8B48BF;
-        width: fit-content;
-        height: fit-content;
-        padding: 10px 25px 10px 25px;
-        border-radius: 30px;
-        gap: 10px;
-    
-    }
     
     .points-pro{
         display: flex;
-        gap:2.55vh;
-        width: 36.81vw;
+        flex-wrap: nowrap;
+        width: 446px;
         height: fit-content;
+        gap: 21px;
     }
+
+    .num-button{
+       display: none;
+    
+    }   
     
     .point-resume{
         display: flex;
@@ -534,14 +536,27 @@ footer{
         align-items: center;
         align-content: center;   
     }
+
+    .point-resume .num-button{
+        display: flex;
+        position: relative;
+        right: 20px;
+    }
     
     .point-title{
+        position: relative;
+        left: 6px;
+        display: flex;
+        background-color: #8B48BF4D;
         color: #323851;
         font-weight: 700;
         line-height: 1.47em;
-        width: fit-content;
+        width: 440px;
         height: fit-content;
+        gap: 10px;
+        align-items: center;
     }
+   
     
     .point-p{
         color: #B3B2B7;
@@ -554,4 +569,195 @@ footer{
 
     /*mq mobile main sec-3*/
 
+    .best-otm{
+        display: flex;
+        justify-content: center;
+        gap: 18px;
+    }
+
+    .group-cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow-x: scroll;
+    }
+
+    .player-card{
+        background-color: #1e1e2600;
+        z-index: 111;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 4.38vw;
+        width: 92.71vw; 
+    }
+
+
+    .sanyo{
+        display: none;
+    }
+
+    .navarro{
+        display: none;
+    }
+
+    .p-description{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: fit-content;
+        width: 81.25vw;
+        color: rgba(185, 185, 193, 1);
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+
+    /*mq mobile main sec-4*/ 
+
+    .best{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: fit-content;
+        font-weight: 700;
+        font-size: 2.25em;
+        color: white;
+        background-color: #3CDDF3;
+        gap: 50px;
+      
+    }
+
+    .best p{
+        height: 192px;
+        text-align: center;
+    }
+    
+    .gfi-button{
+            font-family:'Be Vietnam Pro';
+            font-weight: 500;
+            line-height: 19px;
+            letter-spacing: 0em;
+            color:  white;
+            background-color: #232C50;
+           
+    }
+
+    /*mq mobile footer*/
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        width: 100vw;
+        height: fit-content;
+        color: white;
+    }
+
+
+    .sections-footer{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .logo-sportitFooter{
+        display: flex;
+        width: 107.69px;
+        height: 25px; 
+        padding: 10px;
+        gap: 10px; 
+        box-sizing: content-box;
+        margin-bottom: 0px;
+    }
+    
+   
+    
+    .logoyrrss{
+        display:flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 10px 50px 10px 50px;
+    }
+    
+    .rrss{
+        display:flex;
+        flex-direction: row;
+        gap: 0.5vw;
+        width: 480px;
+        height: 42.05px;
+        padding: 10px 50px 10px 50px;
+        justify-content: space-between;
+
+    }
+    
+    .footer-nav{
+        width: 67.5vw;
+        display: flex;
+        flex-direction: row;
+        color:white;
+        font-weight: lighter;
+        justify-content: space-between;
+        
+        
+    }
+    
+    .footer-nav div ul{
+        display: flex;
+        height: 141.14px;
+        gap: 2.5vw;
+        list-style: none;
+        flex-direction: column;
+        justify-content: space-around;
+
+
+    }
+    
+    .inbox-request{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 480px;
+        height: 68.52px;
+        padding: 10px 10.42vw 10px 10.42vw;
+        gap: 10px;
+        
+
+    }
+    
+    .emailfield{
+        background-color: white;
+        width: 201px;
+        height: 44px;
+        padding: 10px;
+        border-radius: 50px;
+        box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+        border: none;
+    }
+    
+    .emailbutton{
+        color: white;
+        background-color: #8B48BF;
+        width: 63px;
+        height: 42px;
+        border-radius: 50px;
+        box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+        border: none;
+        margin-left: 0.6vh;
+    }
+    
+    .copyright{
+        width: 100vw;
+        height: 38px;
+        padding: 10px;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+
+        
+    }
 }
