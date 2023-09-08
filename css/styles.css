@@ -56,6 +56,10 @@ body{
     border: none;
 }
 
+.menu-hamb{
+    display: none;
+}
+
 li:hover{
     
     color: #242E5299;
@@ -154,8 +158,6 @@ main{
 }
 
 .points{
-    position: absolute;
-    top: 109.45vh;
     display: flex;
     padding: 4.45vh 0px 4.45vh 0px;
     align-content: space-between;
@@ -178,8 +180,6 @@ main{
     gap: 10px;
 
 }
-
-
 
 .points-pro{
     display: flex;
@@ -221,8 +221,6 @@ main{
 }
 
 .best-otm-title{
-    position: absolute;
-    top: 167.78vh;
     display: flex;
     font-size: 2.5rem;
     line-height: 3.84em;
@@ -233,8 +231,6 @@ main{
 }
 
 .group-cards{
-    position: absolute;
-    top: 182.78vh;
     width: 100vw;
     display: flex;
     flex-direction: row;
@@ -272,10 +268,7 @@ main{
 }
 
 .b-more{
-    position: absolute;
-    top: 216vh;
     display: flex;
-    flex: wrap;
     width: 134px;
     height:44px;
     padding: 10px;
