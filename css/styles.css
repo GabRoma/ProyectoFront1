@@ -590,10 +590,11 @@ footer{
     
     .point-resume{
         display: flex;
-        gap: 1.25vw; 
+        gap: 1.25vw;
         flex-wrap: wrap;
         align-items: center;
-        align-content: center;   
+        align-content: center;
+        justify-content: flex-end;
     }
 
     .point-resume .num-button{
@@ -610,7 +611,7 @@ footer{
         color: #323851;
         font-weight: 700;
         line-height: 1.47em;
-        width: 440px;
+        width: 91.67vw;
         height: fit-content;
         gap: 10px;
         align-items: center;
@@ -618,6 +619,7 @@ footer{
    
     
     .point-p{
+        width: fit-content;
         color: #B3B2B7;
         font-weight: 500;
         line-height: 1.6em;
