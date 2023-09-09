@@ -123,15 +123,15 @@ main{
 /* inicio Section 2 */
 
 .points-header{
-    width: 100vw;
-    height: fit-content;
+    width: 100%;
+    height: 15vh;
     display: flex;
     font-size: 1em;
     color: white;
     background-color: #8B48BF;
     gap: 11.12vh;
-    padding: 4.45vh 0px 4.45vh 0px;
     justify-content: center;
+    align-items: center;
 }
 
 .points-a{
@@ -393,11 +393,15 @@ footer{
     margin-left: 0.6vh;
 }
 
-.copyright{
+.copyright-desktop{
     margin-top: 2vh;
     color:dimgray;
     font-size: x-small;
     align-self:last baseline;
+}
+
+.copyright-mobile{
+    display: none;
 }
 
 /* inicio de media querie */
@@ -478,15 +482,13 @@ footer{
     /* mq mobile main sec-2*/
 
     .points-header{
-        width: 480px;
         height: fit-content;
         display: flex;
         flex-direction: column;
         font-size: 1em;
         color: white;
         background-color: #3CDDF3;
-        padding: 40px 20px 40px 20px;
-        gap: 50px;
+        gap: 2vh;
     }
 
     .points-a{
@@ -497,6 +499,7 @@ footer{
         font-size: 2.25em;
         line-height: 2.6rem;
         text-align: left;
+        margin: 4vh 5vw 2vh 5vw;
     }
 
     .points-b{
@@ -510,6 +513,7 @@ footer{
         line-height: 1.5rem;
         letter-spacing: 0em;
         text-align: left;
+        margin: 1vh 5vw 4vh 5vw;
     }
 
     .points{
@@ -732,9 +736,16 @@ footer{
         margin-left: 0.6vh;
     }
     
-    .copyright{
+    .copyright-desktop{
+        display:none;
+    }
+
+    .copyright-mobile{
         display: flex;
         align-self: center;
+        margin-top: 2vh;
+        color:dimgray;
+        font-size: x-small;
         margin-bottom: 3vh;
         order: 4;
     }
